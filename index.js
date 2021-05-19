@@ -19,7 +19,7 @@ let resultado;
 
 // resultado = tiendaTech.filter( producto => producto.precio < 600); //Filtrar los elementos menores a la cantidad de 600 del elemento precio
 
-resultado = tiendaTech.filter( producto => producto.cod === 'asd643'); //Filtrar los elementos menores a la cantidad de 600 del elemento precio
+resultado = tiendaTech.filter( producto => producto.cod === 'asd643'); //Filtrar elemento que posea el código asd643
 
 console.log(resultado);
 
